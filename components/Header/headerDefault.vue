@@ -22,7 +22,7 @@
           >Projetos</NuxtLink
         >
         <NuxtLink to="/" class="text-white text-1xl hover:text-sky-300"
-          >Carreira</NuxtLink
+          >Currículo</NuxtLink
         >
       </div>
 
@@ -70,7 +70,7 @@
           >Projetos</NuxtLink
         >
         <NuxtLink to="/" class="text-white hover:text-gray-900 text-xl"
-          >Carreira</NuxtLink
+          >Currículo</NuxtLink
         >
 
         <!-- Botão de Vamos Conversar (Mobile) -->

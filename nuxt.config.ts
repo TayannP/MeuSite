@@ -6,4 +6,10 @@ export default defineNuxtConfig({
   css: [
     "@fortawesome/fontawesome-free/css/all.css", // Importando o Font Awesome
   ],
+  app: {
+    head: {
+      charset: "utf-8",
+      link: [{ rel: "icon", type: "image/svg", href: "/logo-Tayan.svg" }],
+    },
+  },
 });

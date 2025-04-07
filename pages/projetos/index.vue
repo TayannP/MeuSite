@@ -36,10 +36,10 @@
     />
 
     <Testemunhas
-      avatarUrl="/images/avatar.svg"
-      name="Evandro Ribeiro"
+      avatarUrl="/images/testemunha.svg"
+      name="Alberto Ribeiro"
       testimonial="Seu trabalho é impecável, sempre trazendo soluções criativas e eficientes. A atenção aos detalhes e a dedicação são evidentes em cada projeto que você entrega."
-      jobTitle="FullStack Sênior na empresa Norte Americana"
+      jobTitle="FullStack Sênior e Product Owner  na empresa Norte Americana."
     />
 
     <ImageLink
@@ -61,8 +61,8 @@
     />
 
     <Testemunhas
-      avatarUrl="/images/avatar.svg"
-      name="Evandro Ribeiro"
+      avatarUrl="/images/testemunha2.svg"
+      name="Adriana Tavares"
       testimonial="Altamente talentoso e comprometido, entrega soluções inovadoras com precisão e criatividade. Sua expertise transforma ideias em experiências visuais incríveis, sempre superando expectativas."
       jobTitle="FullStack Sênior na Prefeitura de São Paulo"
     />
@@ -78,11 +78,18 @@
 
     <ImageLink
       imageSrc1="/Card-map-e.svg"
-      imageAlt1="Infomações do App Vermelhinhas"
-      :link1="'/projetos/jomaga'"
+      imageAlt1="Infomações do Sistema Map-e"
+      :link1="'/projetos/map-e'"
       imageSrc2="/Card-MariFood.svg"
       imageAlt2="Informações do Blog"
       :link2="'/projetos/jomaga'"
+    />
+
+    <Testemunhas
+      avatarUrl="/images/avatar3.svg"
+      name="Caio Martins"
+      testimonial="Altamente talentoso e comprometido, entrega soluções inovadoras com precisão e criatividade. Sua expertise transforma ideias em experiências visuais incríveis, sempre superando expectativas."
+      jobTitle="Front-End Pleno na Prefeitura de São Paulo"
     />
   </div>
 </template>

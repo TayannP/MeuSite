@@ -15,14 +15,16 @@
 
       <!-- Links de Navegação (Desktop) -->
       <div class="hidden md:flex space-x-8">
-        <NuxtLink to="/" class="text-black text-1xl hover:text-sky-300"
+        <NuxtLink to="/" class="text-black text-1xl hover:text-[#2A88F5]"
           >Sobre mim</NuxtLink
         >
-        <NuxtLink to="/projetos" class="text-black text-1xl hover:text-sky-300"
+        <NuxtLink
+          to="/projetos"
+          class="text-black text-1xl hover:text-[#2A88F5]"
           >Projetos</NuxtLink
         >
-        <NuxtLink to="/" class="text-black text-1xl hover:text-sky-300"
-          >Carreira</NuxtLink
+        <NuxtLink to="/" class="text-black text-1xl hover:text-[#2A88F5]"
+          >Curriculo</NuxtLink
         >
       </div>
 
@@ -70,7 +72,7 @@
           >Projetos</NuxtLink
         >
         <NuxtLink to="/" class="text-white hover:text-gray-900 text-xl"
-          >Carreira</NuxtLink
+          >Currículo</NuxtLink
         >
 
         <!-- Botão de Vamos Conversar (Mobile) -->

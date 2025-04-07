@@ -6,7 +6,7 @@
     >
       {{ titleFirst }}
       <span
-        class="bg-gradient-to-r from-white via-gray-500 to-gray-800 bg-clip-text text-transparent"
+        class="bg-gradient-to-r from-white via-gray-500 to-gray-400 bg-clip-text text-transparent"
       >
         {{ titleMiddle }}
       </span>
@@ -18,7 +18,7 @@
       <br />
 
       <span
-        class="bg-gradient-to-r from-white via-gray-500 to-gray-800 bg-clip-text text-transparent"
+        class="bg-gradient-to-r from-white via-gray-500 to-gray-300 bg-clip-text text-transparent"
       >
         {{ titleEnd }}
       </span>
@@ -26,7 +26,7 @@
 
     <!-- Subtítulo -->
     <p
-      class="text-lg sm:text-xl md:text-2xl text-gray-600 max-w-4xl mx-auto mt-2 opacity-0"
+      class="text-lg sm:text-xl md:text-2xl text-gray-300 max-w-4xl mx-auto mt-2 opacity-0"
       ref="subtitle"
     >
       {{ subtitle }}

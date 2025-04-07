@@ -7,17 +7,17 @@
         class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight"
         ref="title"
       >
-        Transformando o
+        Transformando
         <span
           class="bg-gradient-to-r from-white via-gray-500 to-gray-800 bg-clip-text text-transparent"
-          >futuro</span
-        >
+          >o futuro
+        </span>
         por meio de Design inovador e tecnologia avançada.
       </h1>
 
       <!-- Subtexto -->
       <p
-        class="text-lg sm:text-xl md:text-2xl text-gray-700 mt-4"
+        class="text-lg sm:text-xl md:text-2xl text-gray-400 mt-4"
         ref="subtitle"
       >
         Colaborei com +100 Empresas e Startups como parceiro estratégico em

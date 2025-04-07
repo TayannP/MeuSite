@@ -66,7 +66,7 @@ const sliderStyles = ref({
 });
 
 onMounted(async () => {
-  await nextTick(); // Garante que o Vue tenha atualizado o DOM antes do GSAP
+  await nextTick();
 
   if (props.sliderImages && props.sliderImages.length > 0) {
     totalSlides.value = props.sliderImages.length;
@@ -78,12 +78,17 @@ onMounted(async () => {
       ease: "power2.out",
       scrollTrigger: {
         trigger: sliderSection.value,
-        start: "top 40%", // Quando 80% da seção entra na tela
+        start: "top 40%",
         toggleActions: "play none none reset",
       },
     });
 
-    ScrollTrigger.refresh(); // Garante que o ScrollTrigger detecte a seção
+    ScrollTrigger.refresh();
+
+    // Autoplay: muda o slide a cada 5 segundos
+    setInterval(() => {
+      nextSlide();
+    }, 3000);
   }
 });
 
@@ -122,14 +127,12 @@ const updateSlider = () => {
 </script>
 
 <style scoped>
-/* Ajuste o tamanho das imagens se necessário */
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-/* Estilo para os indicadores (quadradinhos) */
 div {
   transition: background-color 0.3s ease;
 }

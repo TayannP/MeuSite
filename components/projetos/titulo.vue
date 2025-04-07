@@ -18,10 +18,10 @@
     >
       {{ subtitle }}
     </p>
-
+    badgeText1="Website Design" badgeText2="Develop"
     <!-- Botões -->
     <div class="mt-6 space-x-4">
-      <Badges badgeText1="Website Design" badgeText2="Develop" />
+      <Badges badgeText1="UX/UI" badgeText2="Develop" />
     </div>
   </section>
 </template>

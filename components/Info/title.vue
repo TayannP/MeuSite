@@ -31,7 +31,7 @@ defineProps({
   gradientClass: {
     type: String,
     default:
-      "bg-gradient-to-r from-white via-gray-500 to-gray-400 bg-clip-text text-transparent",
+      "bg-gradient-to-r from-white via-gray-500 to-gray-100 bg-clip-text text-transparent",
   },
 });
 
@@ -48,7 +48,7 @@ onMounted(async () => {
       ease: "power2.out",
       scrollTrigger: {
         trigger: section.value,
-        start: "top 30%", // Inicia a animação quando 80% da seção estiver visível
+        start: "top 40%", // Inicia a animação quando 80% da seção estiver visível
         end: "top 50%", // Apenas para referência, mas não afeta a animação
         toggleActions: "play none none none",
       },

@@ -22,24 +22,24 @@
     />
 
     <Title
-      title="Aplicativos intuitivos e envolventes,  onde cada toque, interação e emoção são cuidadosamente projetados para oferecer uma experiência única e agradável.."
+      title="Aplicativos intuitivos e envolventes,  onde cada toque, interação e emoção são cuidadosamente projetados para oferecer uma experiência única e agradável."
     />
 
     <Capa />
 
     <InfoPRojeto
-      title="Construindo um aplicativo vencedor <br />da cidade! <br />As Vermelhinhas."
+      title="Map-e, Unindo UX, UI e visão estratégica de produto, atuo como Product Owner e PO shadow, garantindo experiências eficientes e alinhadas aos objetivos do negócio."
       buttonText="Ver esse Projeto"
       buttonLink="/projetos/petrobras"
-      imageSrc="/images/Bike.svg"
+      imageSrc="/images/Map-eCapa.svg"
       imageAlt="Projeto Petrobras"
     />
 
     <Testemunhas
       avatarUrl="/images/avatar2.svg"
-      name="Beatriz Silva"
+      name="Luciano de Carvalho"
       testimonial="Totalmente comprometido, sempre buscando oferecer o melhor resultado possível <br /> para  cada projeto,   com dedicação e atenção a cada detalhe."
-      jobTitle="Design Engineer Senior na Petrobras"
+      jobTitle="Design Engineer Sênior na Petrobras"
     />
 
     <Title
@@ -60,16 +60,10 @@
     />
 
     <imagemAnimada
-      imageUrl="/images/bondinho.svg"
+      imageUrl="/images/BONDINHO2.svg"
       altText="Projeto Jomaga UX"
     />
 
-    <Testemunhas
-      avatarUrl="/images/avatar-fernando.svg"
-      name="Fernando Alves"
-      testimonial="É rápido, ágel, inteligente e dedicado, sempre assegurando uma comunicação clara <br /> e eficaz   em todasas etapas do processo."
-      jobTitle="Desenvolvedor Front-End na Jomaga"
-    />
     <Testemunhas
       avatarUrl="/images/avatar-fernando.svg"
       name="Fernando Alves"
@@ -87,6 +81,15 @@ import Capa from "~/components/projetos/Capa.vue";
 import imagemAnimada from "~/components/projetos/imagemAnimada.vue";
 
 definePageMeta({
-  layout: "default", // Especifica o layout alternativo
+  layout: "default", // Especifica o layout alternativo]
+});
+useHead({
+  title: "TayanP",
+  meta: [
+    {
+      name: "description",
+      content: "Meu site Profissional",
+    },
+  ],
 });
 </script>

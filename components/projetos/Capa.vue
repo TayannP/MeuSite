@@ -1,6 +1,6 @@
 <template>
   <section ref="section" class="mt-24">
-    <div ref="imageContainer" class="container mx-auto max-w-6xl opacity-0">
+    <div ref="imageContainer" class="container mx-auto max-w-4xl opacity-0">
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         <!-- A imagem do meio -->
         <div class="order-2 md:order-2">

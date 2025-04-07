@@ -47,10 +47,17 @@
     />
 
     <subFooter
-      message="Suporte disponível 24h!"
-      iconPath="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
-      linkTexto
+      message="Quer saber mais sobre o processo?"
+      link="/contato"
+      linkText="Entre em contato"
+      bgColor="bg-[#FF884D]"
+      iconColor="text-[#fff]"
+      linkColor="text-[#FF884D]"
+      hoverColor="#FF884D"
+      iconPath="M5 13l4 4L19 7"
     />
+
+    <Footer />
   </div>
 </template>
 

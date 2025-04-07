@@ -16,7 +16,7 @@
     <!-- Divisor Vertical -->
     <div
       ref="divider"
-      class="hidden md:block bg-gray-300 w-[2px] mx-auto scale-y-0 opacity-0"
+      class="hidden md:block bg-gray-300 w-[2px] mx-auto scale-y-0"
     ></div>
 
     <!-- Segunda Coluna: Informações e Botão -->
@@ -24,7 +24,7 @@
       ref="infoContainer"
       class="flex flex-col justify-center space-y-8 opacity-0 translate-x-10"
     >
-      <div class="space-y-8 text-gray-800">
+      <div class="space-y-8 text-black">
         <div>
           <p class="font-regular text-gray-400">Setor</p>
           <p>Tecnologia</p>
